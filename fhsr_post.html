@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+
+<body>
+ <style type="text/css">
+#outlook a {padding:0;} 
+
+body{
+    width:100% !important; -webkit-text-size-adjust:100%; 
+    -ms-text-size-adjust:100%; margin:0; padding:0;
+}
+
+.ExternalClass {width:100%;} 
+
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, 
+.ExternalClass td, .ExternalClass div {line-height: 100%;} 
+
+
+#backgroundTable {margin:0; padding:0; width:100% !important;}
+
+img {
+    outline:none; text-decoration:none;border:none; 
+    -ms-interpolation-mode: bicubic;max-width:100%;
+}
+
+a img {border:none;}
+
+.image_fix {display:block;}
+
+table td {border-collapse: collapse;}
+table th {border-collapse: collapse; text-align: left; }
+
+table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+
+table[class=full] { width: 100%; clear: both; }
+
+ /* Headings */
+
+
+h1,h2,h3,h4,h5,h6 { 
+    color: #40718f; margin: 0px; margin-bottom: 16px;  
+    display: block; line-height: 115%;
+}
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.9em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.3em; }
+h6 { font-size: 1em; }
+
+/* Formatting */
+
+hr { 
+    border: none; margin: 20px 0px; border-top: 1px solid #e4e4e4; 
+    border-bottom: 1px solid white;
+}
+strong, b { color: #40718f; }
+a, a:link, a:visited { color: #e4972e }
+a:hover { color: #ffaa35 }
+
+em, i { color: #888888; }
+p {}
+img { max-width: 100%; display: block; height: auto; }
+#email-content img { max-width: 550px;  }
+img.fancy { 
+    border: 2px solid white;     
+    -webkit-box-shadow:  1px 1px 6px #f1f1f1;
+    -moz-box-shadow:  1px 1px 6px #f1f1f1;
+    box-shadow:  1px 1px 6px #f1f1f1;
+}
+
+/* Container */
+
+.container .table { 
+    border-bottom: 1px solid #dddddd; border-right: 1px solid #dddddd; width: 100%;
+}
+.container .table tr { }
+.container .table th, 
+.container .table td { 
+    padding: 6px; border-left: 1px solid #dddddd; 
+    border-top: 1px solid #dddddd; text-align: left;
+}
+.container .table th span, 
+.container .table td span 
+ {
+    font-size:12px;line-height:140%;color:#666666;font-family:sans-serif;
+ }
+
+
+
+
+/* Buttons */
+
+.btn.block { display: block; text-align: center; margin: 16px 0px;}
+a.btn, a.btn:link, a.btn:visited { 
+    padding: 8px 12px;
+    background: #0096a5;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+a.btn:hover { background: #1bb5c4; }
+
+a.btn.secondary {
+    background: #dddddd;
+    color: #777777;
+}
+a.btn.secondary:hover { background: #e4e4e4; }
+
+a.btn.primary {
+    background: #ffaa35;
+    color: #3f2b0f;
+}
+a.btn.primary:hover { background: #ffb248; }
+
+a.btn.text {
+    background: none;
+    border: 1px solid #dddddd;
+    color: #777777;
+}
+a.btn.text:hover { color: #888888; } 
+
+
+/* Wells and Panels */
+.well, .panel, .callout  { 
+    margin: 24px 0px;
+    padding: 16px;
+}
+
+.well {
+    border: 1px solid #dddddd;
+    background-color: #f1f1f1; 
+    -webkit-box-shadow: inset 2px 2px 6px #e8e8e8;
+    -moz-box-shadow: inset 2px 2px 6px #e8e8e8;
+    box-shadow: inset 2px 2px 6px #e8e8e8;
+}
+
+#email-header { font-size: 12px; margin-bottom: 12px; color: 12px; color: #eeeeee; }
+#email-content {}
+
+#email-footer a, #email-footer a:link, #email-footer a:visited {}   
+#email-footer p { margin: 0px; margin-bottom: 12px; }
+#email-footer hr { border-color: #555555; border-width: 1px; border-top: 1px solid #333333; }
+
+
+#newsletter-nav tr td
+{
+    text-transform: uppercase;
+    text-align: center;
+    width: 14.25%;
+}
+#newsletter-nav tr td a 
+{
+    display: block;
+    text-decoration: none;
+    padding: 6px 0px;
+    color: #bbbbbb;
+    text-shadow: 1px 1px 3px #22535c;
+}
+#newsletter-nav tr td a:hover
+{
+    color: white;
+}
+
+#newsletter-nav
+{
+    background: #40718f;
+    background-image: url('2014-FHRS-HEADER.Nav.jpg');
+    border-top: 1px solid #22535c;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#newsletter-nav table {
+    display: table;
+    width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+
+    table[class=devicewidth]        {width: 430px!important;}
+    div[class=devicewidth]          {width: 430px!important;}
+    td[class=devicewidth]           {width: 430px!important;}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    table[class=devicewidth]        {width: 320px!important;}
+    div[class=devicewidth]          {width: 320px!important;}
+    td[class=devicewidth]           {width: 320px!important;}
+
+    td[class=devicewidth] img {
+        width: auto!important; height: auto!important; max-width: 100%!important;
+    }
+    #newsletter-nav td {display:block;width:100%;}
+
+    #newsletter-nav { 
+        display:none;
+    }
+}
+
+
+</style>
+
+
+<div bgcolor="#40718F" style="background-color: #40718f;color:white;" >
+    <table bgcolor="#40718F"  border="0" cellpadding="0" cellspacing="0" id="backgroundTable" 
+    style="width: 100%; height: 100%;color:#444444;" width="100%">
+        <!-- BODY TABLE -->
+
+        <tr>
+        <td align="center" style="width: 100%; height: 100%;" valign="top">
+        <table border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+            <!--  NEWSLETTER BODY TABLE -->
+            <tr>
+            <td align="left" class="devicewidth" valign="top" width="600">
+                <!--  NEWSLETTER BODY -->
+
+            <table border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                <tr>
+                <td align="center" class="devicewidth" 
+                    style="padding: 0; text-align: center" valign="top" width="600">
+                <p style="text-align:center;font-size:12px;color:#eeeeee;">
+                    This is an auto-generated notification of your booking 
+                    status with Fairmont Hot Springs Resort.
+                </p>
+                </td>
+                </tr>
+
+                <tr>
+                <td align="center" class="devicewidth" style="padding: 0; text-align: center" 
+                    valign="top" width="600">
+                <div style="line-height: 0; font-size: 0;">
+                <img alt="Fairmont Hot Springs Resort" 
+                src="http://www.fairmonthotsprings.com/images-newsletter/2014-FHRS-HEADER.Fancy.png">
+                </div>
+                </td>
+                </tr>
+
+                <tr>
+                    <td align="center" class="devicewidth" 
+                        style="background-color: #f4f4f4; padding: 0; text-align: center" 
+                    valign="top" width="600">
+                        <div>
+                        <table border="0" cellpadding="0" cellspacing="0" 
+                               class="devicewidth" id="newsletter-nav" 
+                        style="background: #444444; border-top: 1px solid #22535c; 
+                               border-bottom: 1px solid #aaaaaa; 
+                        font-family:sans-serif;" width="100%">
+                        <tr>
+                        <td colspan="7">
+                        <img 
+                        src="http://www.fairmonthotsprings.com/images-newsletter/nav-spacer.png" 
+                        style="border:none; display:block;">
+                        </td>
+                        </tr>
+
+                        <tr>
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/hot-springs" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                                display: block; text-decoration: none; 
+                                text-align:center;">Soak</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/golf" 
+                           style= "color: #aaaaaa;text-transform:uppercase;
+                                display: block; text-decoration: none; 
+                                text-align:center;">Golf</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/activities/ski" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                                display: block; text-decoration: none; 
+                                text-align:center;">Ski</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/activities/shopping" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                            display: block; text-decoration: none; 
+                            text-align:center;">Shop</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/activities/spa" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                            display: block; text-decoration: none; 
+                            text-align:center;">Relax</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/bc-rockies-adventures" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                            display: block; text-decoration: none; 
+                            text-align:center;">Adventure</a>
+                        </td>
+
+                        <td style="text-align:center;" width="14.285%">
+                        <a href="http://www.fairmonthotsprings.com/dine" 
+                           style="color: #aaaaaa;text-transform:uppercase;
+                            display: block; text-decoration: none; 
+                            text-align:center;">Eat</a>
+                        </td>
+                        </tr>
+
+                        <tr>
+                        <td colspan="7">
+                        <img 
+                        src="http://www.fairmonthotsprings.com/images-newsletter/nav-spacer.png" 
+                        style="border:none; display:block;">
+                        </td>
+                        </tr>
+                        </table>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                <td align="left" class="devicewidth" style="background-color: #f4f4f4" 
+                valign="top" width="600">
+                <table border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="600">
+                <!--[if mso]>
+                <tr>
+                <td width="100%" style=" background-color:transparent;">
+                <table border="0" cellspacing="0" cellpadding="0" 
+                style="border-collapse: separate;">
+                <![endif]-->
+
+                <tr>
+                <!--[if !mso]><!-->
+
+                <td width="100%">
+                <table align="left" border="0" cellpadding="0" cellspacing="0" 
+                    class="devicewidth" 
+                    style="border-collapse: separate;" width="600">
+                <tr>
+                <!--<![endif]-->
+
+               <td style="width:32px;" width="32">
+                   <img 
+                        src="http://www.fairmonthotsprings.com/images-newsletter/body-spacer.png"
+                        style="border:none;width:32px!important;" width="32">
+                </td>
+                <td class="devicewidth" 
+                    style="background-color: transparent; border-collapse: separate" 
+                    valign="top" width="536">
+                    <div class="container" 
+                         style="font-size:14px;line-height:140%;color:#666666;
+                                font-family:sans-serif;padding:16px 0px;">
+<!---
+
+Begin Newsletter Content:
+
+-->
+                        
+<h5>Dear <em_guest.first_name.tr> <em_guest.last_name.tr>,</h5>
+
+<html_marker.p>
+    It was a pleasure having you stay with us at Fairmont Hot Springs Resort. 
+    We hope you enjoyed your stay and left with many wonderful memories.
+</p>
+
+<html_marker.p>
+    We value your feedback and would greatly appreciate you taking a moment 
+    to share with me thoughts about your recent stay with us.
+</p>
+
+<html_marker.p>
+    Please <a href="http://gem.navicomsurvey.com/?cust=0896&rnum=786104">
+    Complete our survey</a> for a chance to win a <strong>Weekend Getaway to the Resort</strong>.
+</p>
+
+<html_marker.p>We wish you a safe journey back home and look forward to seeing you again.</p>
+
+<html_marker.p>Warm regards:<br>
+<br>
+<em>Pascal van Dijk</em><br>
+<small>President &amp; CEO</small></p>
+<hr>
+ <html_marker.p>
+    <strong>Be the first to know</strong> - the Fairmont Hot Springs Resort 
+    newsletter is full of details on special offers and upcoming events. If you would 
+    like to join our mailing list and be a part of our great community, please 
+    <a href="http://marketing.fhsr.com/acton/form/9238/0006:d-0001/0/index.htm">Sign up</a>. 
+    Registration is simple, and you have the ability to unsubscribe at any time.
+</p>       
+                                                                        
+<!---
+
+    END Newsletter Content:
+
+-->
+</div>
+</td>
+<td style="width:30px;" width="30">
+    <img src="http://www.fairmonthotsprings.com/images-newsletter/body-spacer.png" 
+         style="border:none;width:32px!important;" width="32">
+</td>
+<!--[if !mso]><!-->
+</tr>
+</table>
+</td><!--<![endif]-->
+</tr><!--[if mso]>
+</table></td></tr>
+<![endif]-->
+</table>
+</td>
+</tr>
+
+<tr>
+    <td align="left" class="devicewidth" 
+        style="background-color: #eeeeee;" valign="top" width="600">
+        <img alt="Immerse yourself" id="footer-img" 
+            src="http://www.fairmonthotsprings.com/images-newsletter/2014-FHRS-FOOTER.Full2.jpg" 
+            style="display:block;width:100%;max-width:100%;">
+
+        <table border="0" cellpadding="4" cellspacing="2" 
+               class="devicewidth" id="social-nav" width="600">
+            <tr>
+            <td colspan="6" style="text-align:center">
+            <em style="color:#888888;">Connect With Us...</em>
+            </td>
+            </tr>
+
+            <tr>
+            <td style="text-align:center">
+            <a href="https://www.facebook.com/FairmontHotSpringsResort">
+            <img alt="Facebook" 
+                 src="http://www.fairmonthotsprings.com/images-newsletter/icon_facebook.png">
+            </a>
+            </td>
+
+            <td style="text-align:center">
+            <a href="https://twitter.com/FHSresort">
+                <img alt="Twitter" 
+                     src="http://www.fairmonthotsprings.com/images-newsletter/icon_twitter.png">
+            </a>
+            </td>
+
+            <td style="text-align:center">
+            <a href="https://www.youtube.com/user/FHSResort">
+                <img alt="Youtube" 
+                    src="http://www.fairmonthotsprings.com/images-newsletter/icon_youtube.png">
+            </a>
+            </td>
+
+            <td style="text-align:center">
+            <a href="http://instagram.com/fairmonthotspringsresort">
+                <img alt="Instagram" 
+                     src="http://www.fairmonthotsprings.com/images-newsletter/icon_instagram.png">
+            </a>
+            </td>
+
+            <td style="text-align:center">
+            <a href="http://www.pinterest.com/fairmonthotsr/fairmont-hot-springs-resort/">
+                <img alt="Pinterest" 
+                     src="http://www.fairmonthotsprings.com/images-newsletter/icon_pinterest.png">
+            </a>
+            </td>
+
+            <td style="text-align:center">
+            <a href="http://www.fairmonthotsprings.com/">
+                <img alt="Visit Us" 
+                     src="http://www.fairmonthotsprings.com/images-newsletter/icon_website2.png">
+            </a>
+            </td>
+            </tr>
+        </table>
+        <hr style="border:none;border-top:1px solid #cccccc;border-bottom:1px solid white;">
+
+        <table border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="100%">
+            <tr>
+                <td style="width:30px;" width="30">
+                    <img src="http://www.fairmonthotsprings.com/images-newsletter/body-spacer.png" 
+                    style="border:none;width:30px!important;" width="30">
+                </td>
+
+                <td>
+                <div style="font-size:12px;font-family:sans-serif;padding-bottom:32px;">
+                    <html_marker.p>
+                    Copyright &copy; 2014 Fairmont Hot Springs Resort<br>
+                    Our address is 5225 Fairmont Resort Road, Fairmont Hot Springs, V0B 1L1, Canada
+                    <br>
+                    <a href="http://www.FairmontHotSprings.com">FairmontHotSprings.com</a> 
+                    &bull; 1.800.663.4979
+                    </p>
+                    <br>
+                    <html_marker.p>
+                        This is an auto-generated notification of your booking 
+                        status with Fairmont Hot Springs Resort.
+                    </p>
+                </div>
+                </td>
+
+                <td style="width:30px;" width="30">
+                    <img src="http://www.fairmonthotsprings.com/images-newsletter/body-spacer.png" 
+                        style="border:none;width:30px!important;" width="30">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" height="30">
+                    <img src="http://www.fairmonthotsprings.com/images-newsletter/body-spacer.png" 
+                    style="border:none;width:auto;height:30px;" height="30">
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+</table>
+</td><!--  NEWSLETTER BODY  -->
+</tr>
+</table><!-- END NEWSLETTER BODY TABLE -->
+</td>
+</tr>
+</table><!-- END BODY TABLE -->
+</div>
+</body>
+</html>
