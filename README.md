@@ -12,6 +12,8 @@ Confirmations:  fhsr_cf
 Cancellations:  fhsr_cxl
 Post Stay:      fhsr_post
 Pre Stay:       fhsr_pre
+                    _h Header
+                    _f Footer
 
 
 IMPORTANT: 
